@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-image: url("images/background.png");
+}
+
+#logoImg{    
+margin-top: 100px;
+}
+#homeBtn{
+display: block;
+margin:50px auto;
+width: 250px;
+height: 100px;
+background-color: orange;
+border: orange 5px solid;
+border-radius: 15px;
+}
+
+#homeBtn a{
+ font-size: 30px;
+  color: white;
+  text-decoration: none;
+}

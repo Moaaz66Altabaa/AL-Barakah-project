@@ -1,0 +1,167 @@
+*{margin: 0;
+    padding: 0;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    body{background-image:  url("images/background.png"); width: 100%;}
+    
+    #headerDiv{
+    background-image: url("images/header2.png"); 
+    height: 98px;
+    width: 100%;
+    padding-top: 220px
+    }
+    
+    #headerList{
+    margin-top: 30px;
+    }
+    
+    .headerSpan{
+    display: inline-flex;
+    height: 50px;
+    
+    }
+    
+    .headerSpan:hover  {
+    background-color:  orange ; 
+    border-radius: 30px;
+    }
+    
+    .headerLink{
+        text-decoration: none;
+    
+        }
+    
+    
+    
+    .headerItem{
+        display: inline-block;
+    margin: auto 20px auto 20px;
+    color: white;
+    font-size: 20px;
+    font-family: system-ui;
+    }
+    
+    @keyframes bigger {
+    from{font-size: 20px; background-color: orange; }
+    to {font-size: 30px; background-color: orange; border-radius: 25px; margin: 20px auto auto auto;}
+    }
+    
+    .headerItem:hover{
+    /* animation-name: bigger;
+    animation-duration: 0.5s; */
+    }
+    
+    #logoDiv{
+    }
+    
+    #logoImg{
+        width: 130px;
+        margin-top: -176px;
+    }
+    
+    #helpParagraphDiv{
+    margin-top: 75px;
+    }
+    
+    #helpParagraphTitle{
+    font-family: tahoma;
+    font-size: 35px;
+    color: brown;
+    font-weight: bold;
+
+    }
+    
+   
+    #helpParagraph{
+        font-size: 25px;
+        font-family: tahoma ;
+    }
+    
+    .helpPics{
+    width: 900px;
+    }
+
+    #helpFormDiv{
+    width: 450px;
+    margin: 10px auto 100px auto;
+    padding: 35px  35px ; 
+    background-color: rgb(250, 207, 128);
+    border: rgb(255, 243, 173) 2px solid ;
+    border-radius: 7px;
+    }
+
+    form{
+    
+    }
+
+    input{
+    width: 400px;
+    height: 50px;
+
+    }
+
+    select{
+    margin-top: 10px;
+    width: 130px;
+    height: 30px;
+    }
+
+    button{
+    font-size: 20px;
+    width: 200px;
+    height: 25px;
+    }
+
+    footer{
+        height: 50px;
+        width: 100%;
+        background-color: #a7852a;
+        margin: 100px 0 0 0;
+        }
+        
+        #footerParagraph{
+        color: white;
+        font-size: 18px;
+        margin-top: -31px;    
+        }
+        
+        #socialmediaIconsDiv{
+        height: 50px;
+        width: 170px;
+        background-color: white;
+        }
+        
+        /* @keyframes socialDiv{
+            from{ padding: 0}
+            to{ padding-top: 50px;}
+        } */
+        
+        /* #socialmediaIconsDiv:hover{
+        animation-name: socialDiv;
+        animation-duration: 1s;
+        } */
+    
+    #socialmediaIconsDiv ul li{
+        display: inline;
+    }
+    
+    .socialmediaIcons{
+        width: 45px;
+    }
+    
+    .socialmediaIcons:hover{
+    width: 40px;
+    border: 2px peru solid;
+    
+    }
+    
+    #followUs{
+        position: absolute;
+        bottom: 65px;
+        left: 50px;
+        font-size: 30px;
+        color: peru;
+    }
